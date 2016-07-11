@@ -12,7 +12,7 @@
      * @param {ng.ITimeoutService} $timeout
      */
     function TestController($q, $http, $timeout) {
-        $timeout(()=> $q.resolve('test')).
+        $timeout(() => $q.resolve('test'));
         var vm = this;
 
         activate();
